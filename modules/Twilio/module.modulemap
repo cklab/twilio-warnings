@@ -1,0 +1,9 @@
+module TwilioCommon [system] {
+    umbrella header "../../libs/TwilioCommon.framework/Headers/TwilioCommon.h"
+    export *
+}
+
+module TwilioConversationsClient [system] {
+    umbrella header "../../libs/TwilioConversationsClient.framework/Headers/TwilioConversationsClient.h"
+    export *
+}
